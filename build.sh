@@ -23,9 +23,9 @@ mkdir -p ${BUILD_DIR}
 
 cat ${TEMPLATE_DIR}/tex_header.tex > ${BUILD_DIR}/2015_winter.tex 
 #pandoc -t latex 2015_winter.md >> 2015_winter.tex
-pandoc -t latex ${BUILD_DIR}/tmp2.md >> ${BUILD_DIR}/2015_winter.tex
+pandoc -f markdown -t latex ${BUILD_DIR}/tmp2.md >> ${BUILD_DIR}/2015_winter.tex
 cat ${TEMPLATE_DIR}/tex_bibitem.tex >> ${BUILD_DIR}/2015_winter.tex
-pandoc -t latex ${SRC_DIR}/2015_winter_afterword.md >> ${BUILD_DIR}/2015_winter.tex
+pandoc -f markdown -t latex ${SRC_DIR}/2015_winter_afterword.md >> ${BUILD_DIR}/2015_winter.tex
 cat ${TEMPLATE_DIR}/tex_hooter.tex >> ${BUILD_DIR}/2015_winter.tex 
 
 cat ${BUILD_DIR}/2015_winter.tex | sed -e "s/htbp/H/g" > ${BUILD_DIR}/tmp.tex
