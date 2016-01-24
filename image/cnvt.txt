@@ -1,0 +1,1 @@
+convert -density 600 -resize 50% top_roomba_02.png top_roomba_02.eps
