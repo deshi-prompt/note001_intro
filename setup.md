@@ -1,0 +1,13 @@
+
+#> /usr/local/texlive/texmf-local/tex/platex/
+> sudo mkdir /usr/share/texmf/tex/latex/local
+> sudo mv sty.url /usr/share/texmf/tex/latex/local/
+> sudo texhash
+texhash: Updating /usr/local/share/texmf/ls-R... 
+texhash: Updating /var/lib/texmf/ls-R-TEXLIVEDIST... 
+texhash: Updating /var/lib/texmf/ls-R-TEXMFMAIN... 
+texhash: Updating /var/lib/texmf/ls-R... 
+texhash: Done.
+>  cat /usr/share/texmf/ls-R | grep url
+url.sty
+

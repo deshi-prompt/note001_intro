@@ -1,0 +1,55 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+3D            	build/2015winter.tex	/^\\end{itemize}$/;"	b
+3D            	build/2015winter.tex	/^低コストで環境を構築したい場合には候補になるかと思います.$/;"	P
+AWORD_BASENAME	Makefile	/^AWORD_BASENAME= 2015_winter_afterword$/;"	m
+AWORD_SRC	Makefile	/^AWORD_SRC= ${SRC_DIR}\/${AWORD_BASENAME}.md$/;"	m
+Android	build/2015winter.tex	/^選ぶのがよいでしょう.$/;"	P
+BBB       Linux                                                         	build/2015winter.tex	/^当然ここであげるもの以外にもいくつも利用できる言語は無数に存在しますので調べてみるとよいでしょう。$/;"	b
+BODY_BASENAME	Makefile	/^BODY_BASENAME= 2015_winter_body$/;"	m
+BODY_SRC	Makefile	/^BODY_SRC= ${SRC_DIR}\/${BODY_BASENAME}.md$/;"	m
+BUILD_DIR	Makefile	/^BUILD_DIR= build$/;"	m
+C  	build/2015winter.tex	/^熟練者になればOSのコードも読めるようになります、きっと。$/;"	P
+C      	build/2015winter.tex	/^\\subsubsection{BBB上のLinuxで利用できるプログラミング言語（一部）}\\label{bbbux4e0aux306elinuxux3067ux5229ux7528ux3067ux304dux308bux30d7ux30edux30b0ux30e9ux30dfux30f3ux30b0ux8a00ux8a9eux4e00ux90e8}$/;"	P
+CAD	build/2015winter.tex	/^以下に詳細設計に利用可能なツールを紹介します.$/;"	b
+CMD	Makefile	/^CMD=.\/build.sh$/;"	m
+CONVERT	image/Makefile	/^CONVERT=convert -density 300 -resize 960$/;"	m
+CONVERT2	image/Makefile	/^CONVERT2=convert -density 300 -resize 480$/;"	m
+CPU      	build/2015winter.tex	/^今回利用した部品の購入先の情報を紹介します$/;"	P
+Debian	build/2015winter.tex	/^ここであげるもの以外にもいくつも利用できるOSはありますので調べてみるとよいでしょう。$/;"	P
+EPS_SRCS	image/Makefile	/^EPS_SRCS= $(filter-out %.eps, ${FILES})$/;"	m
+EPS_TGTS	image/Makefile	/^EPS_TGTS= $(addsuffix .eps, $(basename ${EPS_SRCS}))$/;"	m
+Eagle	build/2015winter.tex	/^\\end{figure}$/;"	P
+FILES	image/Makefile	/^FILES= $(wildcard section*\/*)$/;"	m
+HTML_TGT	Makefile	/^HTML_TGT= index.html$/;"	m
+KiCAD	build/2015winter.tex	/^\\subsubsection{電気CAD}\\label{ux96fbux6c17cad}$/;"	P
+Mail	build/2015winter.tex	/^http:\/\/deshi-prompt.github.io\/$/;"	s
+NC            	build/2015winter.tex	/^NC工作機械、3Dプリンタ、その他工作機械を手動で使用する場合について説明します。$/;"	P
+NC            	build/2015winter.tex	/^でも手を出し易い低価格モデルを中心に紹介を行います.$/;"	b
+Non-OS vs OS	build/2015winter.tex	/^なお、なにかしらのツールを使用する場合には概念設計で提示したものがそのまま利用できます。$/;"	b
+PC	build/2015winter.tex	/^わたしも海を守れる立派な防人になりたいです。$/;"	b
+PDF_TGT	Makefile	/^PDF_TGT= ${BUILD_DIR}\/${PDF_TGT_}$/;"	m
+PDF_TGT_	Makefile	/^PDF_TGT_= 2015winter.pdf$/;"	m
+PNG_SRCS	image/Makefile	/^PNG_SRCS= $(filter-out %.eps, ${FILES})$/;"	m
+PNG_TGTS	image/Makefile	/^PNG_TGTS= $(addsuffix .PNG, $(basename ${PNG_SRCS}))$/;"	m
+POST_PANDOC_CMD	Makefile	/^POST_PANDOC_CMD=.\/htbp2H.sh$/;"	m
+PRE_PANDOC_CMD	Makefile	/^PRE_PANDOC_CMD=.\/image2eps.sh$/;"	m
+PlantUML	build/2015winter.tex	/^たい人はastahの無償版を利用するのがよいでしょう.$/;"	P
+PowerPoint	build/2015winter.tex	/^\\end{verbatim}$/;"	P
+SRCS	Makefile	/^SRCS= ${BODY_SRC} ${AWORD_SRC}$/;"	m
+SRC_DIR	Makefile	/^SRC_DIR= src$/;"	m
+SUBDIRS	Makefile	/^SUBDIRS := image$/;"	m
+TEMPLATE_DIR	Makefile	/^TEMPLATE_DIR=`pwd`\/template$/;"	m
+TEX_FULL_TGT	Makefile	/^TEX_FULL_TGT= $(basename ${PDF_TGT}).tex$/;"	m
+TEX_TGTS	Makefile	/^TEX_TGTS= $(SRCS:.md=.tex)$/;"	m
+TEX_TGTS2	Makefile	/^TEX_TGTS2 = $(patsubst src\/%.tex,${BUILD_DIR}\/%.tex,$(TEX_TGTS))$/;"	m
+UML               	build/2015winter.tex	/^\\end{figure}$/;"	b
+Ubuntu	build/2015winter.tex	/^うれしいですね.$/;"	P
+Web	build/2015winter.tex	/^でし・ぷろんぷと \\textbackslash{} 2015 年 12 月 30 日 初版 発行$/;"	s
+astah	build/2015winter.tex	/^\\end{verbatim}$/;"	P
+haskell	build/2015winter.tex	/^などの補完機能など非常に強力な強化が盛り込まれています。$/;"	P
+python	build/2015winter.tex	/^Boost:Pythonを利用するとPythonとの連携が比較的簡単に行えます.$/;"	P
